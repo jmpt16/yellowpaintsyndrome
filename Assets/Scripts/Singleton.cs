@@ -26,8 +26,8 @@ public class Singleton
 
     public static void UpdatePaintReadout()
     {
-        readout.gameObject.SetActive(paint > 0);
+        //readout.gameObject.SetActive(paint > 0);
         GameObject.FindFirstObjectByType<PlayerScript>().can.SetActive(paint > 0);
-        readout.text = "Paint: " + paint;
+        //readout.text = "Paint: " + paint;
     }
 }
