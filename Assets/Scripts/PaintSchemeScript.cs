@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PaintSchemeScript : MonoBehaviour
 {
     // Start is called before the first frame update
     float hueValue;
 
+	public Text text;
 	void Start()
     {
 		GameObject[] allObjects = FindObjectsOfType<GameObject>();
@@ -26,11 +28,7 @@ public class PaintSchemeScript : MonoBehaviour
 						break;
 				}
 		}
+		Singleton.readout = text;
 		//GetComponent<Renderer>().material = new Material(Shader.Find("Standard"));
-	}
-
-    // Update is called once per frame
-    void Update()
-    {
 	}
 }

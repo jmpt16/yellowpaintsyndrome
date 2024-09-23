@@ -6,13 +6,16 @@ using UnityEngine.UI;
 
 public class MenuScript : MonoBehaviour
 {
+	public Text text;
 	private void Start()
 	{
 		Debug.Log(Time.timeScale);
 		Cursor.lockState = CursorLockMode.None;
 		Screen.fullScreen = true;
 		Screen.fullScreenMode = FullScreenMode.ExclusiveFullScreen;
-	}
+		Singleton.readout = text;
+
+    }
 	public void DisableSelf(GameObject menu)
 	{
 		menu.SetActive(false);

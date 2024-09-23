@@ -1,11 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class PlayerScript: MonoBehaviour
+public class PlayerScript : MonoBehaviour
 {
-    public CharacterController controller;
+	public CharacterController controller;
 	public Vector3 playerVelocity;
 	float xRot;
 	public bool groundedPlayer;
@@ -13,19 +12,39 @@ public class PlayerScript: MonoBehaviour
 	public float runMultiplier = 1.4f;
 	public float jumpHeight = 1.0f;
 	public float gravityValue = -9.81f;
-	float turnSmoothVelocity;
 	public float turnSmoothTime;
-	public Text text;
-	public GameObject can;
-	public GameObject pause;
-	public int ammo=0;
+	public GameObject can,pause;
 	private void Start()
-    {
-        controller = gameObject.GetComponent<CharacterController>();
+	{
+		controller = gameObject.GetComponent<CharacterController>();
 		Camera.main.transform.parent = transform;
 		Camera.main.transform.position = transform.position + transform.up * .5f;
 		Cursor.lockState = CursorLockMode.Locked;
-		text.text = "Ammo: "+ammo;
+	}
+
+	void PaintThing()
+	{
+		if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out RaycastHit hit, 2) && hit.transform.tag == "Clear")
+		{
+			hit.transform.tag = "Painted";
+			hit.transform.GetComponent<Renderer>().material.color = Color.yellow;
+			Singleton.paint--;
+            Singleton.UpdatePaintReadout();
+            if (Singleton.paint <= 0)
+			{
+				can.SetActive(false);
+			}
+		}
+	}
+
+	void InteractThing()
+	{
+        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out RaycastHit hit, 2) && hit.transform.tag == "Painted")
+        {
+            //hit.transform.tag = "Activated";
+            //hit.transform.GetComponent<Animation>().Play();
+            hit.transform.GetComponent<Animator>().SetBool("Activate", !hit.transform.GetComponent<Animator>().GetBool("Activate"));
+        }
     }
 
     void Update()
@@ -35,30 +54,14 @@ public class PlayerScript: MonoBehaviour
 			pause.SetActive(!pause.activeSelf);
 			pause.GetComponent<PauseScript>().enabled = pause.activeSelf;
 		}
-		if (ammo>0 && Input.GetMouseButtonDown(1))
+		if (Singleton.paint> 0 && Input.GetMouseButtonDown(1))
         {
-			if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward,out RaycastHit hit,2)&& (hit.transform.tag != "Painted" && hit.transform.tag!="Unpaintable"))
-			{
-				hit.transform.tag = "Painted";
-				hit.transform.GetComponent<Renderer>().material.color = Color.yellow;
-				ammo--;
-				text.text = "Ammo: "+ammo;
-                if (ammo<=0)
-                {
-					text.gameObject.SetActive(false);
-					can.SetActive(false);
-                }
-            }
+			PaintThing();
         }
 		if (Input.GetMouseButtonDown(0))
 		{
-			if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out RaycastHit hit, 2) && hit.transform.tag == "Painted")
-			{
-				//hit.transform.tag = "Activated";
-				//hit.transform.GetComponent<Animation>().Play();
-				hit.transform.GetComponent<Animator>().SetBool("Activate", !hit.transform.GetComponent<Animator>().GetBool("Activate"));
-			}
-		}
+			InteractThing();
+        }
 		float mouseX=Input.GetAxis("Mouse X")* 1000 * Time.deltaTime;
 		float mouseY=Input.GetAxis("Mouse Y")* 1000 * Time.deltaTime;
 
@@ -98,7 +101,6 @@ public class PlayerScript: MonoBehaviour
 			controller.stepOffset = 1f;
         }
 
-		
 		controller.Move(playerVelocity * Time.deltaTime);
     }
 }
