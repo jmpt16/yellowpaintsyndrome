@@ -18,15 +18,25 @@ public class PlayerScript: MonoBehaviour
 	public Text text;
 	public GameObject can;
 	public GameObject pause;
-	public int ammo=0;
 	private void Start()
     {
         controller = gameObject.GetComponent<CharacterController>();
 		Camera.main.transform.parent = transform;
 		Camera.main.transform.position = transform.position + transform.up * .5f;
 		Cursor.lockState = CursorLockMode.Locked;
-		text.text = "Ammo: "+ammo;
     }
+
+	void SetThingType(Transform thing) 
+	{
+		if (thing.GetComponent<Animator>())
+		{
+			thing.GetComponent<Animator>().SetBool("Activate", !thing.GetComponent<Animator>().GetBool("Activate"));
+		}
+		if (thing.GetComponent<Rigidbody>())
+		{
+
+		}
+	}
 
     void Update()
     {
@@ -35,19 +45,13 @@ public class PlayerScript: MonoBehaviour
 			pause.SetActive(!pause.activeSelf);
 			pause.GetComponent<PauseScript>().enabled = pause.activeSelf;
 		}
-		if (ammo>0 && Input.GetMouseButtonDown(1))
+		if (Singleton.Paint>0 && Input.GetMouseButtonDown(1))
         {
 			if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward,out RaycastHit hit,2)&& (hit.transform.tag != "Painted" && hit.transform.tag!="Unpaintable"))
 			{
 				hit.transform.tag = "Painted";
 				hit.transform.GetComponent<Renderer>().material.color = Color.yellow;
-				ammo--;
-				text.text = "Ammo: "+ammo;
-                if (ammo<=0)
-                {
-					text.gameObject.SetActive(false);
-					can.SetActive(false);
-                }
+				Singleton.Paint--;
             }
         }
 		if (Input.GetMouseButtonDown(0))
@@ -56,7 +60,7 @@ public class PlayerScript: MonoBehaviour
 			{
 				//hit.transform.tag = "Activated";
 				//hit.transform.GetComponent<Animation>().Play();
-				hit.transform.GetComponent<Animator>().SetBool("Activate", !hit.transform.GetComponent<Animator>().GetBool("Activate"));
+				SetThingType(hit.transform);
 			}
 		}
 		float mouseX=Input.GetAxis("Mouse X")* 1000 * Time.deltaTime;

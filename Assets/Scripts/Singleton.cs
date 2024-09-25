@@ -7,8 +7,27 @@ using UnityEngine.SceneManagement;
 public class Singleton
 {
     private Singleton() { }
-    public static int paint { get; set; }
-    public static Text readout { get; set; }
+    public static AmmoHandler readout { get; set; }=GameObject.FindFirstObjectByType<AmmoHandler>();
+
+	private static int paint;
+	public static int Paint {
+        get 
+        {
+            return paint;
+        } 
+        set
+        {
+            paint = value;
+            bool check = paint > 0;
+			readout.ammoCount.gameObject.SetActive(check);
+			readout.can.gameObject.SetActive(check);
+			if (!check)
+            {
+                return;
+            }
+            readout.ammoCount.text = "Paint:" + value;
+        } 
+    }
 
     private static Singleton instance = null;
 
@@ -22,12 +41,5 @@ public class Singleton
             }
             return instance;
         }
-    }
-
-    public static void UpdatePaintReadout()
-    {
-        //readout.gameObject.SetActive(paint > 0);
-        GameObject.FindFirstObjectByType<PlayerScript>().can.SetActive(paint > 0);
-        //readout.text = "Paint: " + paint;
     }
 }

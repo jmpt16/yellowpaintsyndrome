@@ -28,9 +28,4 @@ public class PaintSchemeScript : MonoBehaviour
 		}
 		//GetComponent<Renderer>().material = new Material(Shader.Find("Standard"));
 	}
-
-    // Update is called once per frame
-    void Update()
-    {
-	}
 }
