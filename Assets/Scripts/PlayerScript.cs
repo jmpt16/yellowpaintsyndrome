@@ -28,14 +28,7 @@ public class PlayerScript: MonoBehaviour
 
 	void SetThingType(Transform thing) 
 	{
-		if (thing.GetComponent<Animator>())
-		{
-			thing.GetComponent<Animator>().SetBool("Activate", !thing.GetComponent<Animator>().GetBool("Activate"));
-		}
-		if (thing.GetComponent<Rigidbody>())
-		{
-
-		}
+		
 	}
 
     void Update()
@@ -60,7 +53,11 @@ public class PlayerScript: MonoBehaviour
 			{
 				//hit.transform.tag = "Activated";
 				//hit.transform.GetComponent<Animation>().Play();
-				SetThingType(hit.transform);
+				//SetThingType(hit.transform);
+				if (hit.transform.GetComponent<InteractableScript>())
+				{
+					hit.transform.GetComponent<InteractableScript>().active = !hit.transform.GetComponent<InteractableScript>().active;
+				}
 			}
 		}
 		float mouseX=Input.GetAxis("Mouse X")* 1000 * Time.deltaTime;
@@ -99,7 +96,7 @@ public class PlayerScript: MonoBehaviour
 		else 
 		{
 			playerVelocity.y = -1f;
-			controller.stepOffset = 1f;
+			controller.stepOffset = .5f;
         }
 
 		

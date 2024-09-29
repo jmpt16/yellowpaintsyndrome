@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\MenuScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
+    <Compile Include="Assets\Scripts\InteractableScript.cs" />
     <Compile Include="Assets\Scripts\PaintSchemeScript.cs" />
     <Compile Include="Assets\Scripts\Singleton.cs" />
     <Compile Include="Assets\Scripts\CollectableScript.cs" />
