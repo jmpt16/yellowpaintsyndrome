@@ -18,6 +18,8 @@ public class PlayerScript: MonoBehaviour
 	public Text text;
 	public GameObject can;
 	public GameObject pause;
+	public GameObject gameOver;
+	public LayerMask mask;
 	private void Start()
     {
         controller = gameObject.GetComponent<CharacterController>();
@@ -31,7 +33,15 @@ public class PlayerScript: MonoBehaviour
 		
 	}
 
-    void Update()
+	void OnControllerColliderHit(ControllerColliderHit hit)
+	{
+		if(hit.transform.tag=="Damaging")
+		{
+            gameOver.SetActive(true);
+            Singleton.Paint = 0;
+		}
+	}
+	void Update()
     {
 		if (Input.GetKeyDown(KeyCode.Return))
 		{
@@ -49,19 +59,19 @@ public class PlayerScript: MonoBehaviour
         }
 		if (Input.GetMouseButtonDown(0))
 		{
-			if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out RaycastHit hit, 2) && hit.transform.tag == "Painted")
+			if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out RaycastHit hit, 2,mask) && hit.transform.tag == "Painted")
 			{
 				//hit.transform.tag = "Activated";
 				//hit.transform.GetComponent<Animation>().Play();
 				//SetThingType(hit.transform);
-				if (hit.transform.GetComponent<InteractableScript>())
+				if (hit.transform.GetComponent<Animator>())
 				{
-					hit.transform.GetComponent<InteractableScript>().active = !hit.transform.GetComponent<InteractableScript>().active;
-				}
+                    hit.transform.GetComponent<Animator>().SetBool("Activate", !GetComponent<Animator>().GetBool("Activate"));
+                }
 			}
 		}
-		float mouseX=Input.GetAxis("Mouse X")* 1000 * Time.deltaTime;
-		float mouseY=Input.GetAxis("Mouse Y")* 1000 * Time.deltaTime;
+		float mouseX=Input.GetAxis("Mouse X") * 1000 * Time.deltaTime;
+		float mouseY=Input.GetAxis("Mouse Y") * 1000 * Time.deltaTime;
 
 		xRot -= mouseY;
 		xRot=Mathf.Clamp(xRot, -90f, 90f);

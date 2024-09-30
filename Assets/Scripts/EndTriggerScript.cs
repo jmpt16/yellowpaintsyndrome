@@ -10,6 +10,7 @@ public class EndTriggerScript : MonoBehaviour
         if (other.GetComponent<PlayerScript>())
         {
 			endLevel.SetActive(true);
-		}
+            Singleton.Paint = 0;
+        }
     }
 }
