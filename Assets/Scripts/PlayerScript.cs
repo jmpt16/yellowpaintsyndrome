@@ -15,38 +15,27 @@ public class PlayerScript: MonoBehaviour
 	public float gravityValue = -9.81f;
 	float turnSmoothVelocity;
 	public float turnSmoothTime;
-	public Text text;
-	public GameObject can;
-	public GameObject pause;
-	public GameObject gameOver;
-	public LayerMask mask;
+	public UIHandler handler;
 	private void Start()
     {
-        controller = gameObject.GetComponent<CharacterController>();
+		handler=FindFirstObjectByType<UIHandler>();
+		controller = gameObject.GetComponent<CharacterController>();
 		Camera.main.transform.parent = transform;
 		Camera.main.transform.position = transform.position + transform.up * .5f;
 		Cursor.lockState = CursorLockMode.Locked;
     }
-
-	void SetThingType(Transform thing) 
-	{
-		
-	}
-
 	void OnControllerColliderHit(ControllerColliderHit hit)
 	{
 		if(hit.transform.tag=="Damaging")
 		{
-            gameOver.SetActive(true);
-            Singleton.Paint = 0;
+			handler.gameOverMenu_Update();
 		}
 	}
 	void Update()
     {
 		if (Input.GetKeyDown(KeyCode.Return))
 		{
-			pause.SetActive(!pause.activeSelf);
-			pause.GetComponent<PauseScript>().enabled = pause.activeSelf;
+			handler.pauseMenu_Update();
 		}
 		if (Singleton.Paint>0 && Input.GetMouseButtonDown(1))
         {
@@ -59,14 +48,14 @@ public class PlayerScript: MonoBehaviour
         }
 		if (Input.GetMouseButtonDown(0))
 		{
-			if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out RaycastHit hit, 2,mask) && hit.transform.tag == "Painted")
+			if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out RaycastHit hit, 2) && hit.transform.tag == "Painted")
 			{
 				//hit.transform.tag = "Activated";
 				//hit.transform.GetComponent<Animation>().Play();
 				//SetThingType(hit.transform);
-				if (hit.transform.GetComponent<Animator>())
+				if (hit.transform.GetComponent<InteractableScript>())
 				{
-                    hit.transform.GetComponent<Animator>().SetBool("Activate", !GetComponent<Animator>().GetBool("Activate"));
+					hit.transform.GetComponent<InteractableScript>().active = true;
                 }
 			}
 		}

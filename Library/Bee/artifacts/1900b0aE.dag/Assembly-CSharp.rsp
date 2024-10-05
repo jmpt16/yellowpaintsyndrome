@@ -371,6 +371,7 @@
 "Assets/Scripts/PauseScript.cs"
 "Assets/Scripts/PlayerScript.cs"
 "Assets/Scripts/Singleton.cs"
+"Assets/Scripts/UIHandler.cs"
 -langversion:9.0
 
 /deterministic

@@ -20,4 +20,16 @@ public class UIHandler : MonoBehaviour
         }
         ammoCount.text = "Paint:" + value;
     }
+
+    public void pauseMenu_Update()
+    {
+		pauseMenu.SetActive(!pauseMenu.activeSelf);
+		pauseMenu.GetComponent<PauseScript>().enabled = pauseMenu.activeSelf;
+	}
+
+	public void gameOverMenu_Update()
+	{
+		gameOverMenu.SetActive(true);
+		Singleton.Paint = 0;
+	}
 }
