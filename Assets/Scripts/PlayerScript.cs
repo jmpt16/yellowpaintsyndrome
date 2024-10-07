@@ -5,20 +5,15 @@ using UnityEngine.UI;
 
 public class PlayerScript: MonoBehaviour
 {
-    public CharacterController controller;
-	public Vector3 playerVelocity;
+    CharacterController controller;
+	Vector3 playerVelocity;
 	float xRot;
-	public bool groundedPlayer;
+	bool groundedPlayer;
 	public float playerSpeed = 2.0f;
-	public float runMultiplier = 1.4f;
-	public float jumpHeight = 1.0f;
-	public float gravityValue = -9.81f;
-	float turnSmoothVelocity;
-	public float turnSmoothTime;
 	public UIHandler handler;
 	private void Start()
     {
-		handler=FindFirstObjectByType<UIHandler>();
+		handler = FindFirstObjectByType<UIHandler>();
 		controller = gameObject.GetComponent<CharacterController>();
 		Camera.main.transform.parent = transform;
 		Camera.main.transform.position = transform.position + transform.up * .5f;
@@ -33,7 +28,11 @@ public class PlayerScript: MonoBehaviour
 	}
 	void Update()
     {
-		if (Input.GetKeyDown(KeyCode.Return))
+        if (transform.position.y<-10)
+        {
+            handler.gameOverMenu_Update();
+        }
+        if (Input.GetKeyDown(KeyCode.Return))
 		{
 			handler.pauseMenu_Update();
 		}
@@ -50,15 +49,14 @@ public class PlayerScript: MonoBehaviour
 		{
 			if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out RaycastHit hit, 2) && hit.transform.tag == "Painted")
 			{
-				//hit.transform.tag = "Activated";
-				//hit.transform.GetComponent<Animation>().Play();
-				//SetThingType(hit.transform);
+
 				if (hit.transform.GetComponent<InteractableScript>())
 				{
 					hit.transform.GetComponent<InteractableScript>().active = true;
                 }
 			}
 		}
+		//mouse/camera stuff
 		float mouseX=Input.GetAxis("Mouse X") * 1000 * Time.deltaTime;
 		float mouseY=Input.GetAxis("Mouse Y") * 1000 * Time.deltaTime;
 
@@ -76,21 +74,16 @@ public class PlayerScript: MonoBehaviour
 		
 		playerVelocity = new Vector3(moveDir.x, playerVelocity.y, moveDir.z);
 
-        if (Input.GetButtonDown("Jump")&& groundedPlayer)
+        if (Input.GetButtonDown("Jump") && groundedPlayer)
         {
-            playerVelocity.y = Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
+            playerVelocity.y = Mathf.Sqrt(-3.0f * Physics.gravity.y);
             groundedPlayer = false;
 
 		}
         if (!groundedPlayer)
 		{
 			controller.stepOffset = 0f;
-			playerVelocity.y += gravityValue * Time.deltaTime;
-			//Debug.Log(controller.velocity.y + " | " + playerVelocity.y);
-			if (controller.velocity.y==0 && playerVelocity.y>0)
-            {
-				
-			}
+			playerVelocity.y += Physics.gravity.y * Time.deltaTime;
         }
 		else 
 		{
