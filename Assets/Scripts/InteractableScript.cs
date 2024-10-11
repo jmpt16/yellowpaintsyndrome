@@ -23,14 +23,47 @@ public class InteractableScript : MonoBehaviour
 				active = false;
 			}
 		}
-		if (GetComponent<Rigidbody>())
+		if (GetComponent<EnemyScript>())
+		{
+			if (GetComponent<EnemyScript>().target == null)
+			{
+				EnemyScript[] enemies = FindObjectsByType<EnemyScript>(FindObjectsSortMode.None);
+				float distance = 100;
+				int index = 0;
+                for (int i = 0; i < enemies.Length; i++)
+                {
+                    if (enemies[i].gameObject.tag!="Painted" && Vector3.Distance(transform.position, enemies[i].transform.position)<distance)
+                    {
+						distance = Vector3.Distance(transform.position, enemies[i].transform.position);
+						index = i;
+					}
+                }
+				GetComponent<EnemyScript>().target = enemies[index].transform;
+				active = false;
+			}
+			if (active)
+			{
+				GetComponent<EnemyScript>().active = true;
+			}
+		}
+		if (GetComponent<BulletScript>())
 		{
 			if (active)
 			{
-				transform.position = Camera.main.transform.position + Camera.main.transform.forward * 2;
-				transform.rotation = Camera.main.transform.rotation;
+				transform.rotation = Quaternion.Inverse(transform.rotation);
+				active = false;
 			}
-			GetComponent<Rigidbody>().useGravity = !active;
 		}
-    }
+	}
+	public void PaintObject()
+	{
+		if (GetComponent<EnemyScript>()) 
+		{
+			GetComponent<EnemyScript>().active = false;
+			GetComponent<EnemyScript>().target = null;
+		}
+		transform.tag = "Painted";
+		transform.GetComponent<Renderer>().material.color = Color.yellow;
+		Singleton.Paint--;
+	}
 }

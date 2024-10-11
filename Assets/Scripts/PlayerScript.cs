@@ -40,10 +40,8 @@ public class PlayerScript: MonoBehaviour
         {
 			if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward,out RaycastHit hit,2)&& (hit.transform.tag != "Painted" && hit.transform.tag!="Unpaintable"))
 			{
-				hit.transform.tag = "Painted";
-				hit.transform.GetComponent<Renderer>().material.color = Color.yellow;
-				Singleton.Paint--;
-            }
+				hit.transform.GetComponent<InteractableScript>().PaintObject();
+			}
         }
 		if (Input.GetMouseButtonDown(0))
 		{
