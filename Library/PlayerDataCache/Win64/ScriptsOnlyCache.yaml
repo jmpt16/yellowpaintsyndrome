@@ -50,14 +50,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.UI.UIFoldout
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -85,6 +77,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.Outline
+    - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
   serializedClasses:
     Unity.RenderPipelines.Core.Runtime:
@@ -105,6 +98,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.ScrollRect/ScrollRectEvent
     - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.Slider/SliderEvent
     - UnityEngine.UI.SpriteState
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
@@ -117,6 +111,15 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: GoToLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: UpdateMouseSens
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: ChangeMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: DisableSelf
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: DisableSelf
@@ -144,6 +147,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: MenuScript
     methodName: GoToLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuScript
+    methodName: UpdateVolume
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerButton
     methodName: OnAction
@@ -188,10 +194,19 @@ ScriptsOnlyBuild:
     methodName: ResetDebugManager
   - assembly: Assembly-CSharp
     fullTypeName: PauseScript
+    methodName: GoToThisScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseScript
     methodName: Retry
   - assembly: Assembly-CSharp
     fullTypeName: PauseScript
+    methodName: GoToThisScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseScript
     methodName: GoToNextScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseScript
+    methodName: GoToThisScene
   - assembly: Assembly-CSharp
     fullTypeName: PauseScript
     methodName: Retry
@@ -200,10 +215,19 @@ ScriptsOnlyBuild:
     methodName: OnDisable
   - assembly: Assembly-CSharp
     fullTypeName: PauseScript
+    methodName: GoToThisScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseScript
     methodName: Retry
   - assembly: Assembly-CSharp
     fullTypeName: PauseScript
+    methodName: GoToThisScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseScript
     methodName: GoToNextScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseScript
+    methodName: GoToThisScene
   - assembly: Assembly-CSharp
     fullTypeName: PauseScript
     methodName: Retry
@@ -212,10 +236,19 @@ ScriptsOnlyBuild:
     methodName: OnDisable
   - assembly: Assembly-CSharp
     fullTypeName: PauseScript
+    methodName: GoToThisScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseScript
     methodName: Retry
   - assembly: Assembly-CSharp
     fullTypeName: PauseScript
+    methodName: GoToThisScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseScript
     methodName: GoToNextScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseScript
+    methodName: GoToThisScene
   - assembly: Assembly-CSharp
     fullTypeName: PauseScript
     methodName: Retry
@@ -224,10 +257,19 @@ ScriptsOnlyBuild:
     methodName: OnDisable
   - assembly: Assembly-CSharp
     fullTypeName: PauseScript
+    methodName: GoToThisScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseScript
     methodName: Retry
   - assembly: Assembly-CSharp
     fullTypeName: PauseScript
+    methodName: GoToThisScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseScript
     methodName: GoToNextScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseScript
+    methodName: GoToThisScene
   - assembly: Assembly-CSharp
     fullTypeName: PauseScript
     methodName: Retry
@@ -236,10 +278,19 @@ ScriptsOnlyBuild:
     methodName: OnDisable
   - assembly: Assembly-CSharp
     fullTypeName: PauseScript
+    methodName: GoToThisScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseScript
     methodName: Retry
   - assembly: Assembly-CSharp
     fullTypeName: PauseScript
+    methodName: GoToThisScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseScript
     methodName: GoToNextScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseScript
+    methodName: GoToThisScene
   - assembly: Assembly-CSharp
     fullTypeName: PauseScript
     methodName: Retry
@@ -339,6 +390,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6098}
     - Class: 114
+      Script: {instanceID: 6176}
+    - Class: 114
       Script: {instanceID: 6186}
     - Class: 114
       Script: {instanceID: 6204}
@@ -383,9 +436,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8608}
     - Class: 114
-      Script: {instanceID: 9406}
+      Script: {instanceID: 9408}
     - Class: 114
-      Script: {instanceID: 9734}
+      Script: {instanceID: 9736}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -407,6 +460,12 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
     Assets/Scenes/Level1.unity:
     - Class: 1
@@ -435,6 +494,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 91
@@ -500,6 +563,12 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
     Assets/Scenes/Level2.unity:
     - Class: 1
@@ -526,6 +595,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 91
@@ -591,6 +664,12 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
     Assets/Scenes/Level3.unity:
     - Class: 1
@@ -617,6 +696,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 91
@@ -682,6 +765,12 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
     Assets/Scenes/Level4.unity:
     - Class: 1
@@ -710,6 +799,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 91
@@ -776,6 +869,12 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
     Assets/Scenes/Level5.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -800,6 +899,10 @@ ScriptsOnlyBuild:
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -848,7 +951,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8118}
     - Class: 114
-      Script: {instanceID: 9848}
+      Script: {instanceID: 9850}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -872,6 +975,12 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -1110,7 +1219,7 @@ ScriptsOnlyBuild:
     className: ProbeReferenceVolumeProfile
   - hash:
       serializedVersion: 2
-      Hash: 0f9e7e4e0edc583180658813c9252fc6
+      Hash: 99581d910247c0a43b0f3e8e1ca339a1
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CollectableScript
@@ -1176,7 +1285,7 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
-      Hash: 2c94c3fcf243a12d2dd16de72988f539
+      Hash: f8454d4979822e088410711c9f81dfe5
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: MenuScript
@@ -1446,7 +1555,7 @@ ScriptsOnlyBuild:
     className: UnityOnPointerClickMessageListener
   - hash:
       serializedVersion: 2
-      Hash: e4ff9dc553298ad3bf0c70f5a339fa77
+      Hash: 33014ff419bed721a610ed1010c8bf8c
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerScript
@@ -1638,7 +1747,7 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
-      Hash: ec5d4a0d8ec7524f3ca083e33cb20069
+      Hash: 13a2255c5ba3f7f3b11c4b589a951983
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: UIHandler
@@ -1978,6 +2087,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 0cb928b8a33eba493c058b847368a316
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: OptionsScript
   - hash:
       serializedVersion: 2
       Hash: 9a174471d4db2c0c6d3ac47d2f818db1

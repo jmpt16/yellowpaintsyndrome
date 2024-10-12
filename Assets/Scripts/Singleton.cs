@@ -9,6 +9,9 @@ public class Singleton
     private Singleton() { }
 
 	private static int paint;
+
+    public static int mouseSens=500;
+    public static int volume=100;
 	public static int Paint {
         get 
         {

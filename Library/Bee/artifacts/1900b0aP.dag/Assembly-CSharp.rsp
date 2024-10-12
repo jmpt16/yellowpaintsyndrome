@@ -318,6 +318,7 @@
 "Assets/Scripts/EnemyScript.cs"
 "Assets/Scripts/InteractableScript.cs"
 "Assets/Scripts/MenuScript.cs"
+"Assets/Scripts/OptionsScript.cs"
 "Assets/Scripts/PaintSchemeScript.cs"
 "Assets/Scripts/PauseScript.cs"
 "Assets/Scripts/PlayerScript.cs"

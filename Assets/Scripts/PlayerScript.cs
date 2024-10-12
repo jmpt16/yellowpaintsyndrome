@@ -11,8 +11,12 @@ public class PlayerScript: MonoBehaviour
 	bool groundedPlayer;
 	public float playerSpeed = 2.0f;
 	public UIHandler handler;
+	public AudioClip spraySound;
+	public AudioSource audioSource;
+	public GameObject can;
 	private void Start()
     {
+		audioSource = GetComponent<AudioSource>();
 		handler = FindFirstObjectByType<UIHandler>();
 		controller = gameObject.GetComponent<CharacterController>();
 		Camera.main.transform.parent = transform;
@@ -41,6 +45,8 @@ public class PlayerScript: MonoBehaviour
 			if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward,out RaycastHit hit,2)&& (hit.transform.tag != "Painted" && hit.transform.tag!="Unpaintable"))
 			{
 				hit.transform.GetComponent<InteractableScript>().PaintObject();
+				audioSource.clip = spraySound;
+				audioSource.Play();
 			}
         }
 		if (Input.GetMouseButtonDown(0))
@@ -55,8 +61,8 @@ public class PlayerScript: MonoBehaviour
 			}
 		}
 		//mouse/camera stuff
-		float mouseX=Input.GetAxis("Mouse X") * 1000 * Time.deltaTime;
-		float mouseY=Input.GetAxis("Mouse Y") * 1000 * Time.deltaTime;
+		float mouseX=Input.GetAxis("Mouse X") * Singleton.mouseSens * Time.deltaTime;
+		float mouseY=Input.GetAxis("Mouse Y") * Singleton.mouseSens * Time.deltaTime;
 
 		xRot -= mouseY;
 		xRot=Mathf.Clamp(xRot, -90f, 90f);

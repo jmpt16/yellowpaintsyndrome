@@ -410,7 +410,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoCount: {fileID: 1821344375449177073}
-  can: {fileID: 0}
   pauseMenu: {fileID: 1096101337342697584}
   gameOverMenu: {fileID: 8906119122684335873}
 --- !u!1 &867415400318775105
@@ -627,7 +626,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1985994304909177860}
         m_TargetAssemblyTypeName: PauseScript, Assembly-CSharp
-        m_MethodName: GoToScene
+        m_MethodName: GoToThisScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -729,7 +728,7 @@ GameObject:
   - component: {fileID: 7193212420595467186}
   - component: {fileID: 807401234615418978}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Pause
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1396,7 +1395,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 807401234615418978}
         m_TargetAssemblyTypeName: PauseScript, Assembly-CSharp
-        m_MethodName: GoToScene
+        m_MethodName: GoToThisScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2112,7 +2111,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 4185211343265413080}
         m_TargetAssemblyTypeName: PauseScript, Assembly-CSharp
-        m_MethodName: GoToScene
+        m_MethodName: GoToThisScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

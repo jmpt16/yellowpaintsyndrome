@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\CollectableScript.cs" />
     <Compile Include="Assets\Scripts\EnemyScript.cs" />
     <Compile Include="Assets\Scripts\PauseScript.cs" />
+    <Compile Include="Assets\Scripts\OptionsScript.cs" />
     <Compile Include="Assets\Scripts\EndTriggerScript.cs" />
     <Compile Include="Assets\Scripts\AmmoHandler.cs" />
   </ItemGroup>

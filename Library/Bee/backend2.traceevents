@@ -1,351 +1,298 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1728683035183204, "dur":19202, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1728683035202413, "dur":68, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1728683035202528, "dur":398, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1728683035205709, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":0, "ts":1728683035202954, "dur":2858, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1728683035205814, "dur":1146523, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1728683036352339, "dur":165, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1728683036352505, "dur":274, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1728683036353012, "dur":2081, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1728683035203082, "dur":2736, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1728683035205820, "dur":4475, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1728683035211468, "dur":559, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":1, "ts":1728683035212031, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1728683035212113, "dur":6960, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1728683035219077, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1728683035219316, "dur":139, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035219604, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jmendonca\\Desktop\\yellowpaintsyndrome\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035219708, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jmendonca\\Desktop\\yellowpaintsyndrome\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035219804, "dur":626, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jmendonca\\Desktop\\yellowpaintsyndrome\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035220432, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jmendonca\\Desktop\\yellowpaintsyndrome\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035220536, "dur":642, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jmendonca\\Desktop\\yellowpaintsyndrome\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035221179, "dur":277, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jmendonca\\Desktop\\yellowpaintsyndrome\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035221457, "dur":391, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jmendonca\\Desktop\\yellowpaintsyndrome\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035221851, "dur":200, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jmendonca\\Desktop\\yellowpaintsyndrome\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035222052, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jmendonca\\Desktop\\yellowpaintsyndrome\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035222150, "dur":387, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jmendonca\\Desktop\\yellowpaintsyndrome\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035222539, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jmendonca\\Desktop\\yellowpaintsyndrome\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035222657, "dur":190, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jmendonca\\Desktop\\yellowpaintsyndrome\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035222848, "dur":171, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\netstandard.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035223021, "dur":320, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Mono.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035223343, "dur":339, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035223684, "dur":191, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Configuration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035223877, "dur":984, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035224864, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035224991, "dur":1711, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035226705, "dur":602, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Drawing.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035227310, "dur":157, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035227468, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035227577, "dur":151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035227729, "dur":180, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Net.Http.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035227913, "dur":159, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Numerics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035228073, "dur":962, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035229037, "dur":442, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035229481, "dur":293, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035229775, "dur":151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Transactions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035229928, "dur":223, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035230153, "dur":3959, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035234122, "dur":187, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerf6864880-inputdata.json" }}
-,{ "pid":12345, "tid":1, "ts":1728683035234375, "dur":101028, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.BuildTools.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035335406, "dur":488, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035335896, "dur":160683, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.CSharpSupport.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035496582, "dur":157, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.DotNet.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035496740, "dur":554, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.NativeProgramSupport.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035497295, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Stevedore.Program.exe" }}
-,{ "pid":12345, "tid":1, "ts":1728683035497450, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TinyProfiler2.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035497537, "dur":64404, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.GNU.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035561943, "dur":34199, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.LLVM.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035596146, "dur":105523, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.VisualStudio.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035701675, "dur":85851, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.Xcode.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035787529, "dur":176, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Tools.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035787707, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TundraBackend.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035787846, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.VisualStudioSolution.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035787927, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeBuildProgramCommon.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035788011, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeBuildProgramCommon.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035788087, "dur":156, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeLocalCacheTool.exe" }}
-,{ "pid":12345, "tid":1, "ts":1728683035788244, "dur":6209, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035794455, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\NiceIO.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035794590, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035794673, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035794790, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\ScriptCompilationBuildProgram.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035794894, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\ScriptCompilationBuildProgram.exe" }}
-,{ "pid":12345, "tid":1, "ts":1728683035794999, "dur":106942, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\SharpYaml.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035901943, "dur":32150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Api.Attributes.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035934096, "dur":77845, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683036011944, "dur":72093, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Mdb.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683036084039, "dur":35831, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Pdb.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683036119872, "dur":47047, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Rocks.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683036166922, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Api.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683036167029, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.BuildLogic.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683036167153, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683036167211, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Linker.Api.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683036167273, "dur":90447, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Options.dll" }}
-,{ "pid":12345, "tid":1, "ts":1728683035212029, "dur":1045694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1728683036257728, "dur":53, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1728683036257897, "dur":89217, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1728683036351130, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1728683036351129, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1728683036351228, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1728683035203165, "dur":2666, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1728683035205833, "dur":854, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1728683035206687, "dur":3633, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1728683035210322, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1728683035229667, "dur":1430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1728683035231168, "dur":3525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":2, "ts":1728683035234761, "dur":3526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":2, "ts":1728683035238428, "dur":6146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":2, "ts":1728683035244679, "dur":4728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":2, "ts":1728683035249462, "dur":3997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1728683035256798, "dur":83, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1728683035253536, "dur":3379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1728683035257033, "dur":3852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1728683035260953, "dur":4055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1728683035265085, "dur":4628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1728683035269789, "dur":3959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1728683035273819, "dur":13227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/sharedassets5.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1728683035287170, "dur":5117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1728683035292351, "dur":1996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/level2" }}
-,{ "pid":12345, "tid":2, "ts":1728683035294403, "dur":6176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/level0" }}
-,{ "pid":12345, "tid":2, "ts":1728683035300623, "dur":1051712, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1728683035203118, "dur":2704, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1728683035205824, "dur":888, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1728683035206712, "dur":3605, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1728683035210317, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1728683035229030, "dur":1430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1728683035230519, "dur":2717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":3, "ts":1728683035233347, "dur":3808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1728683035237242, "dur":2977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":3, "ts":1728683035240290, "dur":5173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":3, "ts":1728683035245544, "dur":3704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1728683035249353, "dur":3856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1728683035253291, "dur":3307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1728683035256661, "dur":4019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1728683035260759, "dur":3474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1728683035264341, "dur":4826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1728683035276330, "dur":81, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1728683035269253, "dur":7169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1728683035289192, "dur":491, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1728683035276493, "dur":13204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1728683035289790, "dur":6251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/level5.resS" }}
-,{ "pid":12345, "tid":3, "ts":1728683035296087, "dur":1056243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1728683035203156, "dur":2670, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1728683035205828, "dur":858, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1728683035206686, "dur":3629, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1728683035210319, "dur":590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1728683035240516, "dur":3343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1728683035243921, "dur":4093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":4, "ts":1728683035248085, "dur":3292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1728683035251447, "dur":3646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1728683035255160, "dur":3526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1728683035258751, "dur":3240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1728683035262086, "dur":3885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1728683035266031, "dur":3913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1728683035276238, "dur":129, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1728683035270008, "dur":6406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1728683035276865, "dur":13689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1728683035290615, "dur":3496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/level4" }}
-,{ "pid":12345, "tid":4, "ts":1728683035294914, "dur":6363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":4, "ts":1728683035301321, "dur":1051061, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1728683035203200, "dur":2636, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1728683035205838, "dur":764, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1728683035206603, "dur":3722, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1728683035210328, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1728683035239159, "dur":1922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1728683035241159, "dur":4528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":5, "ts":1728683035245742, "dur":3363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/Unity.AI.Navigation.dll" }}
-,{ "pid":12345, "tid":5, "ts":1728683035249225, "dur":3441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1728683035252742, "dur":3167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1728683035255981, "dur":3071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1728683035259198, "dur":3125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1728683035262415, "dur":3787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1728683035266262, "dur":10443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1728683035276776, "dur":5582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":5, "ts":1728683035282419, "dur":9023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":5, "ts":1728683035291500, "dur":3683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/level3" }}
-,{ "pid":12345, "tid":5, "ts":1728683035295233, "dur":1057110, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1728683035203224, "dur":2617, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1728683035205843, "dur":760, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1728683035206603, "dur":3728, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1728683035210332, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1728683035229546, "dur":1459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1728683035231065, "dur":3869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":6, "ts":1728683035235004, "dur":2788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":6, "ts":1728683035237868, "dur":3406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":6, "ts":1728683035241352, "dur":4424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":6, "ts":1728683035245843, "dur":4530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1728683035250458, "dur":3540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1728683035254061, "dur":3064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1728683035257193, "dur":2938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1728683035260204, "dur":3079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1728683035263349, "dur":4280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1728683035267701, "dur":3733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1728683035271539, "dur":7144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1728683035278762, "dur":11500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1728683035290330, "dur":3570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/level4.resS" }}
-,{ "pid":12345, "tid":6, "ts":1728683035293964, "dur":6525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/level0.resS" }}
-,{ "pid":12345, "tid":6, "ts":1728683035300842, "dur":1051535, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1728683035203242, "dur":2606, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1728683035205851, "dur":745, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1728683035206596, "dur":3717, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1728683035210331, "dur":10573, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1728683035210315, "dur":10592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1728683035221394, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1728683035223006, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1728683035223309, "dur":1820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1728683035225175, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":7, "ts":1728683035225542, "dur":3334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":7, "ts":1728683035228944, "dur":2512, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.dll" }}
-,{ "pid":12345, "tid":7, "ts":1728683035228941, "dur":2518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":7, "ts":1728683035231476, "dur":4263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":7, "ts":1728683035235805, "dur":3333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":7, "ts":1728683035239207, "dur":3692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":7, "ts":1728683035243067, "dur":3554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":7, "ts":1728683035246701, "dur":3865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":7, "ts":1728683035250721, "dur":3783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1728683035254623, "dur":5075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1728683035259761, "dur":3489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1728683035263330, "dur":5318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1728683035268715, "dur":6556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1728683035275382, "dur":10180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/sharedassets4.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1728683035285632, "dur":5789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":7, "ts":1728683035291481, "dur":9011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/level3.resS" }}
-,{ "pid":12345, "tid":7, "ts":1728683035300542, "dur":1051791, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1728683035203262, "dur":2591, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1728683035205855, "dur":865, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1728683035206720, "dur":3586, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1728683035210309, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":8, "ts":1728683035220330, "dur":2483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":8, "ts":1728683035222866, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1728683035223286, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1728683035225144, "dur":66579, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":8, "ts":1728683035225143, "dur":66582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome.exe" }}
-,{ "pid":12345, "tid":8, "ts":1728683035291738, "dur":3062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome.exe" }}
-,{ "pid":12345, "tid":8, "ts":1728683035294864, "dur":6143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":8, "ts":1728683035301055, "dur":1051294, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1728683035203285, "dur":2573, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1728683035205861, "dur":867, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1728683035206728, "dur":3576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1728683035210346, "dur":49352, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":9, "ts":1728683035210307, "dur":49393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":9, "ts":1728683035260040, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":9, "ts":1728683035261341, "dur":2919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1728683035264414, "dur":3724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1728683035268213, "dur":7876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1728683035276159, "dur":9124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":9, "ts":1728683035285550, "dur":6408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":9, "ts":1728683035292022, "dur":2648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/level2.resS" }}
-,{ "pid":12345, "tid":9, "ts":1728683035294753, "dur":6599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":9, "ts":1728683035301416, "dur":1050915, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1728683035203313, "dur":2550, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1728683035205866, "dur":386, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1728683035206252, "dur":4058, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1728683035210336, "dur":11799, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":10, "ts":1728683035210312, "dur":11825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":10, "ts":1728683035222160, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":10, "ts":1728683035223425, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":10, "ts":1728683035223974, "dur":1227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":10, "ts":1728683035225248, "dur":4511, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\mscorlib.dll" }}
-,{ "pid":12345, "tid":10, "ts":1728683035225247, "dur":4513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":10, "ts":1728683035230011, "dur":5584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":10, "ts":1728683035235698, "dur":2399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":10, "ts":1728683035238182, "dur":4969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":10, "ts":1728683035243214, "dur":4858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":10, "ts":1728683035248161, "dur":3553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1728683035251776, "dur":3568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1728683035255432, "dur":3731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1728683035259242, "dur":3646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1728683035262971, "dur":4369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1728683035267414, "dur":6659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1728683035274149, "dur":7212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":10, "ts":1728683035281453, "dur":6897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":10, "ts":1728683035288516, "dur":4658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/resources.assets" }}
-,{ "pid":12345, "tid":10, "ts":1728683035293284, "dur":3157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/level1.resS" }}
-,{ "pid":12345, "tid":10, "ts":1728683035296480, "dur":1055873, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1728683035203345, "dur":2525, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1728683035205871, "dur":4429, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1728683035211921, "dur":471, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":11, "ts":1728683035212618, "dur":2973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/app.info" }}
-,{ "pid":12345, "tid":11, "ts":1728683035215602, "dur":13515, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":11, "ts":1728683035215598, "dur":13521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1728683035229139, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1728683035230505, "dur":3652, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.dll" }}
-,{ "pid":12345, "tid":11, "ts":1728683035230503, "dur":3658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":11, "ts":1728683035234184, "dur":5218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":11, "ts":1728683035239477, "dur":3737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":11, "ts":1728683035243334, "dur":3840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":11, "ts":1728683035247257, "dur":3807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1728683035251114, "dur":3084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1728683035254263, "dur":2921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1728683035257245, "dur":3606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1728683035260926, "dur":4371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1728683035265443, "dur":4083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1728683035269588, "dur":3912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1728683035273556, "dur":172371, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":11, "ts":1728683035273553, "dur":172376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":11, "ts":1728683035445950, "dur":10437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":11, "ts":1728683035456428, "dur":895923, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1728683035203364, "dur":2513, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1728683035205878, "dur":4424, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1728683035210343, "dur":110948, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":12, "ts":1728683035210307, "dur":110988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":12, "ts":1728683035321323, "dur":1627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":12, "ts":1728683035322987, "dur":1029376, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1728683035203386, "dur":2497, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1728683035205883, "dur":4435, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1728683035210331, "dur":11776, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":13, "ts":1728683035210319, "dur":11790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":13, "ts":1728683035222133, "dur":1319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":13, "ts":1728683035223499, "dur":89645, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":13, "ts":1728683035223496, "dur":89653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":13, "ts":1728683035313544, "dur":1880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":13, "ts":1728683035315459, "dur":1036911, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1728683035203400, "dur":2487, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1728683035205887, "dur":4425, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1728683035210312, "dur":575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":14, "ts":1728683035240061, "dur":2377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":14, "ts":1728683035242540, "dur":4254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":14, "ts":1728683035246894, "dur":3668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":14, "ts":1728683035250791, "dur":3166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1728683035254028, "dur":2898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1728683035257199, "dur":2601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1728683035259864, "dur":3089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1728683035263081, "dur":3569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1728683035266748, "dur":4376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1728683035271202, "dur":5497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1728683035276956, "dur":8486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":14, "ts":1728683035289503, "dur":354, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1728683035286086, "dur":3784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":14, "ts":1728683035289938, "dur":3340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/level5" }}
-,{ "pid":12345, "tid":14, "ts":1728683035293342, "dur":2450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/level1" }}
-,{ "pid":12345, "tid":14, "ts":1728683035295838, "dur":1056502, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1728683035203429, "dur":2462, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1728683035205892, "dur":4416, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1728683035210310, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":15, "ts":1728683035220349, "dur":3276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":15, "ts":1728683035223678, "dur":116875, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":15, "ts":1728683035223675, "dur":116880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":15, "ts":1728683035340581, "dur":4461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":15, "ts":1728683035345095, "dur":1007262, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1728683035203450, "dur":2446, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1728683035205897, "dur":4424, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1728683035210340, "dur":10653, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":16, "ts":1728683035210323, "dur":10673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":16, "ts":1728683035221400, "dur":1517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":16, "ts":1728683035222962, "dur":14424, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":16, "ts":1728683035222960, "dur":14429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":16, "ts":1728683035237410, "dur":1836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":16, "ts":1728683035239316, "dur":4245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":16, "ts":1728683035243682, "dur":3116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":16, "ts":1728683035246867, "dur":3748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":16, "ts":1728683035250684, "dur":3928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1728683035254704, "dur":3299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1728683035258070, "dur":3866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1728683035262005, "dur":3440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1728683035265526, "dur":2976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1728683035268574, "dur":3217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1728683035271864, "dur":7961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1728683035279891, "dur":14247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":16, "ts":1728683035297811, "dur":1054543, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1728683036357000, "dur":1161, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1728740723228331, "dur":22412, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728740723250753, "dur":121, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728740723250926, "dur":352, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728740723251300, "dur":2882, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728740723254183, "dur":117111, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728740723371295, "dur":370, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728740723371805, "dur":1770, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1728740723251452, "dur":2735, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728740723254190, "dur":4654, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728740723259768, "dur":718, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1728740723260489, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1728740723260593, "dur":8089, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1728740723260488, "dur":8666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1728740723269679, "dur":125, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728740723270491, "dur":95315, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1728740723369793, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1728740723369792, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1728740723369909, "dur":1346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1728740723251501, "dur":2701, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728740723254204, "dur":788, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728740723254992, "dur":3907, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728740723258901, "dur":366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1728740723259268, "dur":1041, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728740723260321, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":2, "ts":1728740723260315, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome.exe" }}
+,{ "pid":12345, "tid":2, "ts":1728740723260418, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1728740723260505, "dur":417, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728740723260934, "dur":506, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728740723261453, "dur":617, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728740723262081, "dur":542, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728740723262635, "dur":255, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728740723262897, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728740723263088, "dur":548, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728740723263662, "dur":3459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1728740723267190, "dur":2823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/level5" }}
+,{ "pid":12345, "tid":2, "ts":1728740723270078, "dur":101217, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728740723251474, "dur":2718, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728740723254195, "dur":813, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728740723255008, "dur":3883, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728740723258910, "dur":356, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1728740723258895, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1728740723259268, "dur":1297, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728740723260593, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728740723260864, "dur":66, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1728740723260938, "dur":489, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728740723261443, "dur":607, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728740723262080, "dur":546, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728740723262638, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728740723262839, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728740723263076, "dur":563, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728740723263660, "dur":4236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1728740723267965, "dur":4079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1728740723272090, "dur":99226, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728740723251494, "dur":2703, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728740723254199, "dur":918, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728740723255117, "dur":3744, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728740723258880, "dur":184, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1728740723258864, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1728740723259066, "dur":1147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728740723260221, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728740723260219, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1728740723260320, "dur":539, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728740723260875, "dur":396, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728740723261281, "dur":267, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728740723261562, "dur":520, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728740723262102, "dur":573, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728740723262683, "dur":332, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728740723263030, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728740723263124, "dur":508, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728740723263651, "dur":3028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1728740723266754, "dur":3657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1728740723270462, "dur":100830, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728740723251531, "dur":2676, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728740723254209, "dur":811, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728740723255020, "dur":3857, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728740723258890, "dur":305, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":5, "ts":1728740723258880, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1728740723259196, "dur":1374, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728740723260591, "dur":267, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728740723260870, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728740723261016, "dur":201, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jmendonca\\Desktop\\yellowpaintsyndrome\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1728740723261015, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1728740723261219, "dur":201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728740723261430, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728740723261665, "dur":408, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728740723262090, "dur":538, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728740723262636, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728740723262866, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728740723263062, "dur":303, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728740723266658, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728740723263440, "dur":3285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1728740723267005, "dur":3013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1728740723270077, "dur":3488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1728740723273621, "dur":97706, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728740723251551, "dur":2660, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728740723254213, "dur":900, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728740723255113, "dur":3754, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728740723258869, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1728740723259069, "dur":835, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728740723259920, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1728740723259910, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1728740723260003, "dur":563, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728740723260589, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728740723260906, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728740723261070, "dur":537, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jmendonca\\Desktop\\yellowpaintsyndrome\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1728740723261069, "dur":539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1728740723261608, "dur":444, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728740723262069, "dur":567, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728740723262649, "dur":362, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728740723263023, "dur":334, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728740723263435, "dur":3619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1728740723267170, "dur":2636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/level5.resS" }}
+,{ "pid":12345, "tid":6, "ts":1728740723270099, "dur":4303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1728740723274443, "dur":96858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728740723251569, "dur":2647, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728740723254218, "dur":799, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728740723255017, "dur":3867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728740723258887, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1728740723259275, "dur":938, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728740723260231, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1728740723260221, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1728740723260326, "dur":554, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728740723260897, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728740723261061, "dur":299, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jmendonca\\Desktop\\yellowpaintsyndrome\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1728740723261060, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1728740723261362, "dur":337, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728740723261713, "dur":476, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728740723262206, "dur":551, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728740723262768, "dur":281, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728740723263058, "dur":289, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728740723263362, "dur":601, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728740723263983, "dur":5926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1728740723270012, "dur":4293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1728740723274365, "dur":96932, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728740723251585, "dur":2638, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728740723254225, "dur":946, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728740723255171, "dur":3685, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728740723258878, "dur":298, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1728740723258859, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1728740723259178, "dur":229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728740723259413, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1728740723259523, "dur":1225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728740723260759, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728740723260926, "dur":496, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728740723261440, "dur":625, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728740723262078, "dur":560, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728740723262649, "dur":359, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728740723263020, "dur":339, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728740723263424, "dur":3861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1728740723267364, "dur":2818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/level3.resS" }}
+,{ "pid":12345, "tid":8, "ts":1728740723270223, "dur":101075, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1728740723251624, "dur":2604, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1728740723254230, "dur":854, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1728740723255084, "dur":3788, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1728740723258874, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1728740723259053, "dur":989, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1728740723260050, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1728740723260132, "dur":630, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1728740723260782, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1728740723261004, "dur":352, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jmendonca\\Desktop\\yellowpaintsyndrome\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1728740723261003, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1728740723261358, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1728740723261633, "dur":416, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1728740723262061, "dur":555, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1728740723262628, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1728740723262846, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1728740723263058, "dur":304, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1728740723263428, "dur":4065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":9, "ts":1728740723267557, "dur":3306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/level2.resS" }}
+,{ "pid":12345, "tid":9, "ts":1728740723270913, "dur":100377, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1728740723251657, "dur":2577, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1728740723254236, "dur":450, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1728740723254686, "dur":4219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1728740723258908, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1728740723259057, "dur":984, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1728740723260046, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1728740723260153, "dur":412, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1728740723260610, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1728740723260881, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1728740723261047, "dur":481, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jmendonca\\Desktop\\yellowpaintsyndrome\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1728740723261046, "dur":483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1728740723261530, "dur":516, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1728740723262056, "dur":573, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1728740723262644, "dur":376, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1728740723263029, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1728740723263122, "dur":515, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1728740723263683, "dur":3592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1728740723267430, "dur":5203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/level3" }}
+,{ "pid":12345, "tid":10, "ts":1728740723272685, "dur":98624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728740723251687, "dur":2555, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728740723254243, "dur":4610, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728740723258866, "dur":307, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728740723259187, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728740723259400, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":11, "ts":1728740723259393, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1728740723259510, "dur":1086, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728740723260610, "dur":221, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728740723260844, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728740723260925, "dur":495, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728740723261435, "dur":626, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728740723262071, "dur":604, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728740723262691, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728740723262769, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728740723263033, "dur":322, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728740723263363, "dur":124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1728740723263361, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1728740723263488, "dur":352, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1728740723263863, "dur":3400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1728740723267371, "dur":4682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/level4" }}
+,{ "pid":12345, "tid":11, "ts":1728740723272094, "dur":99219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1728740723251711, "dur":2539, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1728740723254250, "dur":4716, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1728740723258966, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1728740723259143, "dur":1943, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1728740723261101, "dur":473, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jmendonca\\Desktop\\yellowpaintsyndrome\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1728740723261090, "dur":485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1728740723261576, "dur":490, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1728740723262094, "dur":537, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1728740723262643, "dur":355, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1728740723263012, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1728740723263128, "dur":508, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1728740723263653, "dur":3906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1728740723267636, "dur":4087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/level2" }}
+,{ "pid":12345, "tid":12, "ts":1728740723271777, "dur":99527, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1728740723251733, "dur":2524, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1728740723254258, "dur":4653, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1728740723258930, "dur":201, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":13, "ts":1728740723258915, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1728740723259133, "dur":1442, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1728740723260585, "dur":277, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1728740723260878, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1728740723261081, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jmendonca\\Desktop\\yellowpaintsyndrome\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":13, "ts":1728740723261080, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":13, "ts":1728740723261188, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1728740723261270, "dur":145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jmendonca\\Desktop\\yellowpaintsyndrome\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":13, "ts":1728740723261268, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":13, "ts":1728740723262598, "dur":3721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":13, "ts":1728740723266675, "dur":2317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1728740723269089, "dur":4269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/level1" }}
+,{ "pid":12345, "tid":13, "ts":1728740723273404, "dur":97914, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728740723251754, "dur":2510, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728740723254264, "dur":4654, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728740723258922, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1728740723259104, "dur":1459, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728740723260585, "dur":293, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728740723260896, "dur":283, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728740723261188, "dur":104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jmendonca\\Desktop\\yellowpaintsyndrome\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":14, "ts":1728740723261186, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":14, "ts":1728740723261293, "dur":201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728740723261506, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728740723261664, "dur":524, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728740723262203, "dur":591, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728740723262806, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728740723263055, "dur":291, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728740723263362, "dur":863, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728740723264230, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":14, "ts":1728740723264230, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":14, "ts":1728740723264340, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728740723264541, "dur":4289, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":14, "ts":1728740723264541, "dur":4291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":14, "ts":1728740723268833, "dur":244, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1728740723269150, "dur":4824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/level0.resS" }}
+,{ "pid":12345, "tid":14, "ts":1728740723274034, "dur":97277, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1728740723251773, "dur":2495, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1728740723254269, "dur":4691, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1728740723258964, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1728740723259155, "dur":1814, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1728740723260981, "dur":144, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jmendonca\\Desktop\\yellowpaintsyndrome\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":15, "ts":1728740723260972, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":15, "ts":1728740723261127, "dur":307, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1728740723261447, "dur":606, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1728740723262072, "dur":576, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1728740723262657, "dur":373, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1728740723263053, "dur":297, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1728740723263362, "dur":602, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1728740723263984, "dur":5152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":15, "ts":1728740723269197, "dur":3656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/level0" }}
+,{ "pid":12345, "tid":15, "ts":1728740723272903, "dur":98404, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1728740723251792, "dur":2484, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1728740723254276, "dur":4677, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1728740723258970, "dur":171, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1728740723258957, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1728740723259143, "dur":1413, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1728740723260570, "dur":439, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1728740723261015, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\jmendonca\\Desktop\\yellowpaintsyndrome\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":16, "ts":1728740723261014, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":16, "ts":1728740723261119, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1728740723261338, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1728740723261605, "dur":449, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1728740723262085, "dur":558, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1728740723262649, "dur":362, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1728740723263021, "dur":337, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1728740723263442, "dur":3815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1728740723267319, "dur":3254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jmendonca/Desktop/YPS/Yellow Paint Syndrome_Data/level4.resS" }}
+,{ "pid":12345, "tid":16, "ts":1728740723270612, "dur":100690, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728740723377410, "dur":1028, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

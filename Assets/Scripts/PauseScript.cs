@@ -32,13 +32,15 @@ public class PauseScript : MonoBehaviour
 	public void GoToThisScene(string sceneName)
 	{
 		Time.timeScale = 1.0f;
+		Singleton.Paint = 0;
 		SceneManager.LoadScene(sceneName);
 	}
 	public void GoToNextScene()
 	{
 		Time.timeScale = 1.0f;
+		Singleton.Paint = 0;
 		//SceneManager.LoadScene(sceneName);
-		if(SceneManager.GetActiveScene().buildIndex +1 == SceneManager.sceneCountInBuildSettings)
+		if (SceneManager.GetActiveScene().buildIndex +1 == SceneManager.sceneCountInBuildSettings)
 		{
 			SceneManager.LoadScene(0);
 			return;
@@ -48,6 +50,7 @@ public class PauseScript : MonoBehaviour
 
 	public void Retry()
 	{
+		Singleton.Paint = 0;
 		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 	}
 }
